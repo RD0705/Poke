@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Meus CSS-->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/details.css">
+    <link rel="stylesheet" href="/assets/css/tiposback.css">
+</head>
+
+<body>
+    <section class="content">
+        <div id="content"></div>
+        <div class="item" style="display: flex;padding-bottom: 1rem;">
+            <button id="anterior" type="button" style="background: none;border: none;width: -webkit-fill-available;">
+                <img src="/imagens/button.png" style="width: 6rem;transform: rotate(-90deg);">
+            </button>
+            <button id="proximo" style="background: none;border: none;width: -webkit-fill-available;">
+                <img src="/imagens/button.png" style="width: 6rem;transform: rotate(90deg);">
+            </button>
+        </div>
+    </section>
+
+    <!-- Nosso JS -->
+    <script src="/assest/poke-api.js"></script>
+    <script src="/assest/pokemon-model.js"></script>
+    <script src="/assest/details.js"></script>
+</body>
+
+</html>
